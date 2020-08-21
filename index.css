@@ -31,10 +31,11 @@
     background-color: white;
   }
   .bg-txt { 
-    text-align: center;
+  text-align: center;
+   line-break: auto;
    position:absolute;
    top:170px;
-   margin-left:10%;
+   margin-left:20%;
    color:white;
    font-size: 30px;
    letter-spacing: 3px;
@@ -43,14 +44,14 @@
   #btn-product {
    position:absolute;
    top:475px;
-   margin-left: 10%;
+   left: 38%;
    font-size: 20px;
    width:200px;
   }
   #btn-mail {
    position:absolute;
    top:475px;
-   right: 38%;
+   right: 30%;
    font-size: 20px;
    padding: 5px;
    border:2px solid white;
