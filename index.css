@@ -68,7 +68,7 @@
     top:540px;
     left:85%;
   }*/
-  @media screen and (min-width: 1020px){
+  /*@media screen and (min-width: 1020px){
     #btn-product {
       left: 30%;
      }
@@ -84,8 +84,8 @@
      .navbar{
       z-index: 10000;
     } 
-  }
-  @media screen and (max-width: 600px) {
+  }*/
+  @media screen and (max-width: 572px) {
     .watsapp {
       left:32%;
     }
@@ -94,11 +94,12 @@
      left:32%;
      }
      #btn-product {
-      left: 32%;
+      left: 22%;
      }
      .bg-txt {
       font-size:15px;
-      left:15%;
+      line-height:45px;
+      left:4%;
      }
      #fly {
       display:none;
@@ -110,10 +111,10 @@
       z-index: 10000;
     } 
   }
-  @media screen and (max-width: 538px) {
+  @media screen and (max-width: 537px) {
     .bg-txt {
-      font-size:13px;
-      left:15%;
+      font-size:15px;
+      left:1%;
       color:grey;
      }
      .watsapp {
@@ -128,7 +129,7 @@
      }
      #btn-product {
       top: 65%;
-      left: 32%;
+      left: 22%;
      } 
      .navbar{
       z-index: 10000;
@@ -176,28 +177,28 @@
       width: 50%;
     }   
   }
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 477px) {
     .bg-txt {
      font-size:13px;
      margin-left:8%;
-     line-height: 20px;
+     line-height: 45px;
      }
      .watsapp {
-      top: 58%;
-      left:25%;
+      top: 68%;
+      left:32%;
       width: 170px;
     }
     #btn-mail {
-     top: 45%;
-     left:45%;
+     top: 55%;
+     left:55%;
      width: 100px;
      }
      span.view {
        display:none;
      }
      #btn-product {
-      top: 45%;
-      left:10%;
+      top: 55%;
+      left:15%;
       width: 100px;
      } 
      .navbar{
@@ -207,29 +208,91 @@
       display:none;
     }  
   }
-  @media screen and (max-width: 326px) {
+  @media screen and (max-width: 457px) {
     .bg-txt {
-      font-size:8px;
-      left:3%;
-      z-index: 0;
+      font-size:10px;
+      margin-left:8%;
+      line-height: 45px;
+      }
+  }
+  @media screen and (max-width: 371px) {
+    .bg-txt {
+      font-size:10px;
+      margin-left:4%;
+      line-height: 45px;
+      }
+      .watsapp {
+        top: 68%;
+        left:25%;
+        width: 170px;
+      }
+      #btn-mail {
+       top: 55%;
+       left:50%;
+       width: 100px;
+       }
+       span.view {
+         display:none;
+       }
+       #btn-product {
+        top: 55%;
+        left:10%;
+        width: 100px;
+       }
+  }
+  @media screen and (max-width: 341px) {
+    .bg-txt {
+      font-size:9px;
+      margin-right:3%;
+      line-height: 40px;
+      }
+  }
+  @media screen and (max-width: 332px) {
+    .bg-txt {
+      font-size:7px;
+      margin-left:4%;
+      line-height: 45px;
+      }
+      .watsapp {
+        top: 68%;
+        left:20%;
+        width: 170px;
+      }
+      #btn-mail {
+       top: 55%;
+       left:48%;
+       width: 100px;
+       }
+       span.view {
+         display:none;
+       }
+       #btn-product {
+        top: 55%;
+        left:2%;
+        width: 100px;
+       }
+  } 
+  @media screen and (max-width: 325px) {
+    .bg-txt {
+      font-size:7px;
       top:10%;
      }
      .watsapp {
-      top: 58%;
-      left:25%;
+      top: 65%;
+      left:20%;
       width: 170px;
     }
     #btn-mail {
-     top: 45%;
-     left:45%;
+     top: 53%;
+     left:49%;
      width: 100px;
      }
      span.view {
        display:none;
      }
      #btn-product {
-      top: 45%;
-      left:10%;
+      top: 53%;
+      left:4%;
       width: 100px;;
      
      }
@@ -247,23 +310,50 @@
       width: 50%;
     }  
   }
-  @media screen and (max-width: 263px) {
+  @media screen and (max-width: 293px) {
     .watsapp {
-      top: 58%;
-      left:25%;
+      top: 74%;
+      left:20%;
       width: 170px;
     }
     #btn-mail {
-     top: 45%;
-     left:45%;
+     top: 64%;
+     left:50%;
      width: 100px;
      }
      span.view {
        display:none;
      }
      #btn-product {
-      top: 45%;
-      left:10%;
+      top: 64%;
+      left:4%;
+      width: 100px;
+     }
+     .bg-txt {
+      font-size:7.5px;
+      top:22%;
+      line-height: 30px;
+      z-index:0;
+      line-break: auto;
+     }
+  }
+  @media screen and (max-width: 288px) {
+    .watsapp {
+      top: 78%;
+      left:20%;
+      width: 170px;
+    }
+    #btn-mail {
+     top: 68%;
+     left:53%;
+     width: 100px;
+     }
+     span.view {
+       display:none;
+     }
+     #btn-product {
+      top: 68%;
+      left:4%;
       width: 100px;
      } 
      .navbar{
@@ -275,26 +365,54 @@
       width: 50%;
       top:16%;
     } 
+    .bg-txt {
+      line-break: auto;
+     }
  
   }
-  @media screen and (max-width: 247px) {
+  @media screen and (max-width: 275px) {
     .watsapp {
-      top: 58%;
+      top: 82%;
       left:25%;
       width: 170px;
     }
     #btn-mail {
-     top: 45%;
-     left:45%;
+     top: 74%;
+     left:55%;
      width: 100px;
      }
      span.view {
        display:none;
      }
      #btn-product {
-      top: 45%;
-      left:10%;
-      width: 100px;;
-     
+      top: 74%;
+      left:2%;
+      width: 100px;
     }
+    .bg-txt {
+      line-break: auto;
+     }
+  }
+  @media screen and (max-width: 240px) {
+    .watsapp {
+      top: 85%;
+      left:19%;
+      width: 170px;
+    }
+    #btn-mail {
+     top: 74%;
+     left:55%;
+     width: 100px;
+     }
+     span.view {
+       display:none;
+     }
+     #btn-product {
+      top: 74%;
+      left:0%;
+      width: 100px;
+    }
+    .bg-txt {
+      line-break: auto;
+     }
   }
