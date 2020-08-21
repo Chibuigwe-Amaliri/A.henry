@@ -1,4 +1,7 @@
-#fly {
+* {
+  box-sizing: border-box;
+}
+  #fly {
     position:absolute;
     right: 10px;
     padding-top: 7px;
@@ -94,7 +97,7 @@
      }
      .bg-txt {
       font-size:15px;
-      left:20%;
+      left:15%;
      }
      #fly {
       display:none;
@@ -110,8 +113,36 @@
     .bg-txt {
       font-size:13px;
       left:15%;
+      color:grey;
      }
      .watsapp {
+      top: 90%;
+      left:32%;
+    }
+    #btn-mail {
+     top: 75%;
+     left:32%;
+     border: 2px solid red;
+     color: black
+     }
+     #btn-product {
+      top: 65%;
+      left: 32%;
+     } 
+     .navbar{
+      z-index: 10000;
+    }
+    .bg-img {
+      background-image: none;
+    }   
+  }
+  @media screen and (max-width: 479px) {
+    .bg-txt {
+     font-size:13px;
+     margin-left:8%;
+     line-height: 20px;
+     }
+    .watsapp {
       top: 90%;
       left:32%;
     }
@@ -127,7 +158,7 @@
       z-index: 10000;
     }   
   }
-  @media screen and (max-width: 325px) {
+  @media screen and (max-width: 329px) {
     .bg-txt {
       font-size:8px;
       left:2%;
