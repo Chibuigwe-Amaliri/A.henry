@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
   #fly {
     position:absolute;
@@ -161,21 +162,25 @@
   @media screen and (max-width: 329px) {
     .bg-txt {
       font-size:8px;
-      left:2%;
+      left:3%;
       margin-left: 0px;
       z-index: 0;
+      top:15%;
      }
     .watsapp {
-      top: 90%;
-      left:15%;
+      top: 55%;
+      left:18%;
+      width: 170px;
     }
     #btn-mail {
-     top: 75%;
-     left:15%;
+     top: 45%;
+     left:30%;
+     width: 100px;
      }
      #btn-product {
-      top: 65%;
-      left: 15%;
+      top: 35%;
+      left:30%;
+      width: 100px;;
      }
      .navbar{
       z-index: 10000;
