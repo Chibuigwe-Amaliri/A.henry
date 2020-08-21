@@ -87,6 +87,7 @@
     } 
   }*/
   @media screen and (max-width: 572px) {
+
     .watsapp {
       left:32%;
     }
@@ -114,9 +115,8 @@
   }
   @media screen and (max-width: 537px) {
     .bg-txt {
-      font-size:15px;
-      left:1%;
-      color:grey;
+    font-size:15px;
+    left:1%;
      }
      .watsapp {
       top: 90%;
@@ -136,8 +136,11 @@
       z-index: 10000;
     }
     .bg-img {
-      background-image: none;
-    }   
+    background-image: url(A.henrycat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2.5;
+  }  
   }
   @media screen and (max-width: 486px) {
     .bg-txt {
