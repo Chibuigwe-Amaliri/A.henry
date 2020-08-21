@@ -157,7 +157,10 @@
      } 
      .navbar{
       z-index: 10000;
-    }   
+    } 
+    span.view {
+      display:none;
+    }  
   }
   @media screen and (max-width: 486px) {
     .bg-txt {
@@ -232,7 +235,10 @@
       position:absolute;
       display:none;
       width: 50%;
-    }   
+    } 
+    span.view {
+      display:none;
+    }  
   }
   @media screen and (max-width: 263px) {
     .watsapp {
@@ -259,6 +265,9 @@
       width: 50%;
       top:16%;
     } 
+    span.view {
+      display:none;
+    }
   }
   @media screen and (max-width: 247px) {
     .watsapp {
@@ -278,4 +287,7 @@
       width:170px;
       padding: 0px;
      }
+     span.view {
+      display:none;
+    }
   }
